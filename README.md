@@ -6,3 +6,9 @@
 [stringutil](https://github.com/hsyjkjkl/ServiceComputingonCloud/tree/master/stringutil)）
 
 博客地址（实验报告）：[传送门](https://blog.csdn.net/JKJKL1/article/details/100694327)
+
+## 第五周作业
+
+开发简单CLI程序——selpg， 项目位于目录下的[selpg文件夹](https://github.com/hsyjkjkl/ServiceComputingonCloud/tree/master/selpg)
+
+博客地址：[传送门](https://blog.csdn.net/JKJKL1/article/details/101999617)
