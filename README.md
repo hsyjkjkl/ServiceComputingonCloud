@@ -12,3 +12,13 @@
 开发简单CLI程序——selpg， 项目位于目录下的[selpg文件夹](https://github.com/hsyjkjkl/ServiceComputingonCloud/tree/master/selpg)
 
 博客地址：[传送门](https://blog.csdn.net/JKJKL1/article/details/101999617)
+
+## Web应用--cloudgo-io实现作业
+
+项目文件夹：[web](https://github.com/hsyjkjkl/ServiceComputingonCloud/tree/master/web)
+
+博客地址：
+  
+- [web](https://github.com/hsyjkjkl/ServiceComputingonCloud/tree/master/web)下的README.md
+
+- 或者[CSDN传送门]() 
