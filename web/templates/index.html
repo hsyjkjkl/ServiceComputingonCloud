@@ -1,0 +1,61 @@
+<html>
+<head>
+  <link rel="stylesheet" href="css/main.css"/>
+  <script>
+      function todouble(number) {
+        if (number < 10) {
+          return '0' + number;
+        }
+        else {
+          return '' + number;
+        }
+      }
+        window.onload = function() {
+          
+          function showDate() {
+            var oDate = new Date();
+            var ah1 = document.getElementsByTagName('h1')[0];
+  
+            var date = oDate.getFullYear() + '年 ';
+            date = date + todouble(oDate.getMonth() + 1) + '月 ';
+            date = date + todouble(oDate.getDate()) + '日';
+            ah1.innerHTML = date;
+          }
+          function showtime() {
+            var oDate = new Date();
+            var ah2 = document.getElementsByTagName('h2')[0];
+            var time = [todouble(oDate.getHours())];
+            time.push(todouble(oDate.getMinutes()));
+            time.push(todouble(oDate.getSeconds()));
+            ah2.innerHTML = time.join(': ');
+          }
+          function display() {
+            showDate();
+            showtime();
+          }
+          setInterval(display, 1000);
+            display();
+        }
+    </script>
+</head>
+<body>
+  <!-- <img src="images/cng.png" height="48" width="48"/> -->
+    <h1 style="text-align: center; font-size: 15pt;"></h1>
+    <h2 style="text-align: center; font-size: 10pt; font-family: serif;"></h2>
+        
+      <div>
+            <p id="title">Sample Go Web Application!!</p>
+            <p class="greeting-id">The ID is {{.ID}}</p>
+            <p class="greeting-content">The content is {{.Content}}</p>
+      </div>
+      <form action="/submit" method="post">
+        <label for="username">姓名:</label>
+        <input type="text" name="username" placeholder="该怎么称呼你呢~">
+        <br />
+        <label for="university">学校:</label>
+        <input type="text" name="university" placeholder="输入你的学校">
+        <br />
+        <input type="submit" value="提交">
+      </form>
+</body>
+</html>

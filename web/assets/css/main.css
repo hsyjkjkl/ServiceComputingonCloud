@@ -1,0 +1,19 @@
+body {
+    background-color: #eff7de;
+}
+label{
+    cursor: pointer;
+    display: inline-block;
+    padding: 3px 6px;
+    text-align: right;
+    width: 80px;
+    vertical-align: top;
+}
+
+.title,div,form{
+    text-align: center;
+}
+form{
+    width : 500px;
+    margin: auto;
+}
